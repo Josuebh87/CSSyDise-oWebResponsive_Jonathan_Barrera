@@ -5,7 +5,6 @@
 
 /*contenido general */
 *{
-	
 	margin: 0;
 }
 
@@ -69,7 +68,7 @@ header a:nth-child(1){
 }
 
 header a:visited{
-	color: lightblue;
+	color: white;
 }
 
 /* seccion de imagenes */
@@ -169,10 +168,16 @@ footer div{
 		width: 100%;
 		margin: 20px 0 20px 0;
 	}
+	
 	header{
 		justify-content: center;
+		padding-bottom: 20px;
 	}
 	
+	h1{
+		text-align: center;
+	}
+
 	#img_centro{
 		width: 80%;
 	}
@@ -185,7 +190,6 @@ footer div{
 		width: 100%;
 		margin-left: 20px;
 	}
-	
 }
 
 
