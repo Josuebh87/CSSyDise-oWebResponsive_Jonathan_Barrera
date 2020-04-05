@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+section{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	background: #d5c75f;
+}
+
+header a:nth-child(2){
+	text-decoration: none;	
+}
+header a:nth-child(1){
+	text-decoration: underline;	
+}
+
+
+
+
+section div{
+	width: 33%;
+}
+figure{
+	text-align: center;
+}
+[id^=img_paisaje]{
+	width: 80%;
+	margin: 20px 0 20px 0;
+}
+
+#img_paisaje1{
+	-webkit-filter:blur(10px);
+	filter: blur(10px);
+}
+
+#img_paisaje3{
+	-webkit-filter:sepia(90%);
+	filter: sepia(90%);
+}
+
+section div:nth-child(even) img{
+	filter: grayscale(100%);
+}
+
+@media (max-width:900px){
+	section div{
+		width: 100%;
+	}
+	
+}
+
